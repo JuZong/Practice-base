@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style> 
+		img
+		{
+			animation: mymove 3s infinite;
+		}
+		@keyframes mymove {
+			0% {
+				filter: blur(5px) opacity(1) sepia(1) drop-shadow(20px 50px red);
+			}
+			100% {
+				filter: blur(0px) opacity(0.2) sepia(0) ;
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<img src="img/image.png" width="300" height="300">
+	</body>
+</html>
